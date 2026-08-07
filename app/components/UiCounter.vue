@@ -16,7 +16,7 @@ const display = ref('0')
 
 const match = props.value.match(/^([\d,]+)(.*)$/)
 const target = match ? Number(match[1].replace(/,/g, '')) : 0
-const suffix = match ? match[2] : props.value
+const suffix = match?.[2] || props.value
 
 function format(n: number) {
   return n.toLocaleString('en-US') + suffix
