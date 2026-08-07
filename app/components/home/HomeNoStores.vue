@@ -20,15 +20,12 @@
   overflow: hidden;
 }
 
-.no-stores::before {
-  content: '';
-  position: absolute;
-  right: -140px;
-  top: -140px;
-  width: 420px;
-  height: 420px;
-  border-radius: 50%;
-  background: radial-gradient(circle, rgba(102, 204, 204, 0.18), transparent 70%);
+.no-stores .container {
+  text-align: center;
+}
+
+.no-stores .eyebrow {
+  justify-content: center;
 }
 
 .no-stores__title {
@@ -42,7 +39,7 @@
 }
 
 .no-stores__text {
-  margin-top: 26px;
+  margin: 26px auto 0;
   max-width: 52ch;
   font-size: 19px;
   color: var(--ink-soft);

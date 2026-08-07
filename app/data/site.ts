@@ -36,12 +36,12 @@ export const CATEGORIES = [
     image: '/images/buffalo.png'
   },
   {
-    name: 'Prawns',
+    name: 'Seafood',
     tagline: 'low in calories but high in protein, omega-3s and antioxidants like astaxanthin.',
     image: '/images/prawns.png'
   },
   {
-    name: 'Sardine',
+    name: 'Fishes',
     tagline: 'loaded with omega-3 fatty acids, calcium and vitamin D for heart and bone health.',
     image: '/images/sardine.png'
   }

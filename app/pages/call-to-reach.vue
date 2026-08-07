@@ -33,7 +33,7 @@
           <div class="contact__card">
             <span class="contact__icon"><UiIcon name="location" :size="24" /></span>
             <div>
-              <strong>Service area</strong>
+              <strong>Head Office</strong>
               <span>04 Opp. Shadi Mahal, near Town Square Club, {{ LOCATION }}, KL 678014</span>
             </div>
           </div>

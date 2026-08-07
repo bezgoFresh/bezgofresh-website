@@ -112,8 +112,8 @@ const heroImage = '/images/hero-butcher.png'
 
 .home-hero__blob {
   position: relative;
-  width: min(100%, 460px);
-  aspect-ratio: 1;
+  width: min(100%, 500px);
+  aspect-ratio: 3 / 2;
   border-radius: 44% 56% 58% 42% / 44% 42% 58% 56%;
   background: linear-gradient(145deg, var(--teal) 0%, var(--teal-deep) 100%);
   display: flex;

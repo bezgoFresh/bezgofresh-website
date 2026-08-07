@@ -24,7 +24,7 @@ const communityImage = '/images/community.jpg'
   border-radius: var(--radius-lg);
   background: linear-gradient(120deg, var(--teal) 0%, var(--teal-dark) 100%);
   box-shadow: var(--shadow);
-  padding: clamp(64px, 9vw, 120px) 24px clamp(48px, 6vw, 72px);
+  padding: clamp(48px, 6vw, 84px) 24px clamp(40px, 5vw, 60px);
   text-align: center;
 }
 
@@ -61,7 +61,7 @@ const communityImage = '/images/community.jpg'
 }
 
 .home-community__tc {
-  margin-top: 44px;
+  margin-top: 26px;
   font-family: var(--font-heading);
   font-weight: 600;
   font-size: 11px;
