@@ -1,6 +1,19 @@
 export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
   devtools: { enabled: true },
+  modules: ['@nuxt/icon'],
+  icon: {
+    serverBundle: 'local',
+    clientBundle: {
+      icons: [
+        'ph:instagram-logo-fill',
+        'ph:twitter-logo-fill',
+        'ph:linkedin-logo-fill',
+        'ph:envelope-simple-fill'
+      ],
+      sizeLimitKb: 0
+    }
+  },
   css: ['~/assets/css/main.css'],
   nitro: {
     preset: 'cloudflare-pages',

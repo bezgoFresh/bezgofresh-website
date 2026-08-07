@@ -23,7 +23,7 @@
           </div>
 
           <div class="contact__card">
-            <span class="contact__icon"><UiIcon name="mail" :size="24" /></span>
+            <span class="contact__icon"><Icon name="ph:envelope-simple-fill" :size="24" /></span>
             <div>
               <strong>Email us</strong>
               <a :href="`mailto:${EMAIL}`">{{ EMAIL }}</a>

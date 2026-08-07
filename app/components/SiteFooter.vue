@@ -36,10 +36,10 @@
           <h3 class="site-footer__heading site-footer__heading--gap">Social Links</h3>
           <div class="site-footer__socials">
             <a v-for="social in SOCIALS" :key="social.name" :href="social.url" target="_blank" rel="noopener" :aria-label="social.name">
-              <UiIcon :name="social.icon" :size="18" />
+              <Icon :name="social.icon" :size="18" />
             </a>
             <a :href="`mailto:${EMAIL}?subject=I%20have%20to%20say%20something`" aria-label="Email bezgoFresh">
-              <UiIcon name="mail" :size="18" />
+              <Icon name="ph:envelope-simple-fill" :size="18" />
             </a>
           </div>
         </div>

@@ -16,7 +16,7 @@
         <div class="team__grid">
           <UiReveal v-for="member in TEAM" :key="member.name" class="team__card">
             <div class="team__avatar">
-              <img v-if="member.image" :src="member.image" :alt="member.name" loading="lazy" />
+              <img v-if="member.photo" :src="member.photo" :alt="member.name" loading="lazy" />
               <span v-else class="team__avatar-fallback">{{ initials(member.name) }}</span>
             </div>
             <h3 class="team__name">{{ member.name }}</h3>
@@ -31,7 +31,7 @@
                 :aria-label="`${member.name} on LinkedIn`"
                 :title="member.linkedin ? 'LinkedIn' : 'LinkedIn coming soon'"
               >
-                <UiIcon name="linkedin" :size="16" />
+                <Icon name="ph:linkedin-logo-fill" :size="18" />
               </a>
               <a
                 :href="member.email ? `mailto:${member.email}` : '#'"
@@ -39,7 +39,7 @@
                 :aria-label="`Email ${member.name}`"
                 :title="member.email ? 'Email' : 'Email coming soon'"
               >
-                <UiIcon name="mail" :size="16" />
+                <Icon name="ph:envelope-simple-fill" :size="18" />
               </a>
             </div>
           </UiReveal>
@@ -73,41 +73,46 @@ useSeoMeta({
 const nvidiaBadge = '/images/nvidia-inception-program-badge-rgb-for-screen.png'
 
 const TEAM = [
-  { name: 'Your Name', role: 'Founder', bio: 'Building bezgoFresh to make fresh food accessible and convenient for everyone.', image: '', linkedin: '', email: '' },
-  { name: 'Team Member', role: 'Operations', bio: 'Keeping deliveries fast, fresh and on time, every single day.', image: '', linkedin: '', email: '' },
-  { name: 'Team Member', role: 'Quality Control', bio: 'Making sure only the freshest, quality-checked selection reaches you.', image: '', linkedin: '', email: '' },
+  { photo: '', name: 'Your Name', role: 'Founder', bio: 'Building bezgoFresh to make fresh food accessible and convenient for everyone.', linkedin: '', email: '' },
+  { photo: '', name: 'Team Member', role: 'Operations', bio: 'Keeping deliveries fast, fresh and on time, every single day.', linkedin: '', email: '' },
+  { photo: '', name: 'Team Member', role: 'Quality Control', bio: 'Making sure only the freshest, quality-checked selection reaches you.', linkedin: '', email: '' },
   {
+    photo: '/images/company/joyel.png',
     name: 'John Joyel',
     role: 'Head of Technology',
-    image: '/images/company/joyel.png',
+    bio: 'Driving the technology behind bezgoFresh so ordering stays fast, simple and reliable.',
     linkedin: 'https://www.linkedin.com/in/john-joyel/',
     email: 'johnjoyel0@hotmail.com'
   },
   {
+    photo: '/images/company/shahid.png',
     name: 'Mohammed Shahid',
     role: 'Founding Engineer',
-    image: '/images/company/shahid.png',
+    bio: 'Engineering the platform end-to-end and keeping everything running smoothly.',
     linkedin: 'https://www.linkedin.com/in/shhyydh/',
     email: 'shahid@bezgofresh.com'
   },
   {
+    photo: '',
     name: 'Anas',
     role: 'Human Resource',
-    image: '',
+    bio: 'Taking care of the people behind bezgoFresh.',
     linkedin: '',
     email: ''
   },
   {
+    photo: '/images/company/parthiv.png',
     name: 'Parthiv K',
     role: 'Founding Engineer',
-    image: '/images/company/parthiv.png',
+    bio: 'Building and shipping the features our customers love.',
     linkedin: 'https://www.linkedin.com/in/parthiv-k-134b95282/',
     email: ''
   },
   {
+    photo: '',
     name: 'Muhammed Shihab',
     role: 'Logistic Executive',
-    image: '',
+    bio: 'Making sure every order reaches the right doorstep on time.',
     linkedin: '',
     email: ''
   }

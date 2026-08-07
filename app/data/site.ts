@@ -6,10 +6,9 @@ export const PHONE_INTL = '918590256794'
 export const LOCATION = 'Palakkad'
 
 export const SOCIALS = [
-  { name: 'Instagram', url: 'https://www.instagram.com/bezgofresh/', icon: 'instagram' },
-  { name: 'Twitter', url: 'https://www.twitter.com/bezgoFresh/', icon: 'twitter' },
-  { name: 'Facebook', url: 'https://www.facebook.com/bezgofresh/', icon: 'facebook' },
-  { name: 'LinkedIn', url: 'https://linkedin.com/company/Bezgofresh/', icon: 'linkedin' }
+  { name: 'Instagram', url: 'https://www.instagram.com/bezgofresh/', icon: 'ph:instagram-logo-fill' },
+  { name: 'Twitter', url: 'https://www.twitter.com/bezgoFresh/', icon: 'ph:twitter-logo-fill' },
+  { name: 'LinkedIn', url: 'https://linkedin.com/company/Bezgofresh/', icon: 'ph:linkedin-logo-fill' }
 ]
 
 export const NAV_LINKS = [
