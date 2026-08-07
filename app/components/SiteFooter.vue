@@ -3,7 +3,7 @@
     <div class="site-footer__main">
       <div class="container site-footer__grid">
         <div class="site-footer__brand">
-          <img :src="logo" alt="bezgoFresh" width="120" height="120" />
+          <img :src="logo" alt="bezgoFresh" />
           <p class="site-footer__blurb">
             Fresh fish &amp; meat delivered straight from trusted local butchers to your doorstep.
           </p>
@@ -86,8 +86,8 @@ const logo = '/images/logo.png'
 }
 
 .site-footer__brand img {
-  width: 90px;
-  height: 90px;
+  height: 46px;
+  width: auto;
   object-fit: contain;
   margin-bottom: 16px;
 }

@@ -127,15 +127,14 @@ watch(
 }
 
 .site-header__brand img {
-  width: 52px;
-  height: 52px;
-  object-fit: contain;
-  transition: width 0.45s cubic-bezier(0.22, 1, 0.36, 1), height 0.45s cubic-bezier(0.22, 1, 0.36, 1);
+  display: block;
+  height: 42px;
+  width: auto;
+  transition: height 0.45s cubic-bezier(0.22, 1, 0.36, 1);
 }
 
 .site-header--scrolled .site-header__brand img {
-  width: 44px;
-  height: 44px;
+  height: 34px;
 }
 
 .site-header__nav {
