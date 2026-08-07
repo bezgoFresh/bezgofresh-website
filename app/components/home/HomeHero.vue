@@ -37,7 +37,7 @@
 <script setup lang="ts">
 import { WHATSAPP_URL } from '~/data/site'
 
-const heroImage = '/images/hero-butcher.png'
+const heroImage = '/images/hero-butcher.webp'
 </script>
 
 <style scoped>

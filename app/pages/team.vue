@@ -73,11 +73,11 @@ useSeoMeta({
 const nvidiaBadge = '/images/nvidia-inception-program-badge-rgb-for-screen.png'
 
 const TEAM = [
-  { photo: '', name: 'Your Name', role: 'Founder', bio: 'Building bezgoFresh to make fresh food accessible and convenient for everyone.', linkedin: '', email: '' },
-  { photo: '', name: 'Team Member', role: 'Operations', bio: 'Keeping deliveries fast, fresh and on time, every single day.', linkedin: '', email: '' },
-  { photo: '', name: 'Team Member', role: 'Quality Control', bio: 'Making sure only the freshest, quality-checked selection reaches you.', linkedin: '', email: '' },
+  { photo: '/images/shafak.webp', name: 'Muhammed Shafak', role: 'CEO', bio: 'B.tech in AI & DS, Built bezgo from a side hustle to a startup.', linkedin: 'https://www.linkedin.com/in/muhammadshafak-/', email: 'shafak@bezgofresh.com' },
+  { photo: '/images/thafheem.webp', name: 'Thafheem S A', role: 'COO', bio: 'B.tech in CSBS, Drives ops & vendor execution', linkedin: 'https://www.linkedin.com/in/thafheem/', email: 'thafheem@bezgofresh.com' },
+  { photo: '/images/rithik.webp', name: 'Rithik Krishnan B', role: 'CBO', bio: 'B.tech in AI & DS, Ex-marketing agency founder.', linkedin: 'https://www.linkedin.com/in/rithik-krishna/', email: 'rithik@bezgofresh.com' },
   {
-    photo: '/images/company/joyel.png',
+    photo: '/images/joyel.webp',
     name: 'John Joyel',
     role: 'Head of Technology',
     bio: 'Driving the technology behind bezgoFresh so ordering stays fast, simple and reliable.',
@@ -85,7 +85,7 @@ const TEAM = [
     email: 'johnjoyel0@hotmail.com'
   },
   {
-    photo: '/images/company/shahid.png',
+    photo: '/images/shahid.webp',
     name: 'Mohammed Shahid',
     role: 'Founding Engineer',
     bio: 'Engineering the platform end-to-end and keeping everything running smoothly.',
@@ -101,7 +101,7 @@ const TEAM = [
     email: ''
   },
   {
-    photo: '/images/company/parthiv.png',
+    photo: '/images/parthiv.webp',
     name: 'Parthiv K',
     role: 'Founding Engineer',
     bio: 'Building and shipping the features our customers love.',

@@ -22,27 +22,27 @@ export const CATEGORIES = [
   {
     name: 'Mutton',
     tagline: 'rich in high-quality protein and iron, supporting health and oxygen transport.',
-    image: '/images/mutton.png'
+    image: '/images/mutton.webp'
   },
   {
     name: 'Chicken',
     tagline: 'a lean source of protein that helps in muscle growth and tissue repair.',
-    image: '/images/chicken.png'
+    image: '/images/chicken.webp'
   },
   {
     name: 'Buffalo',
     tagline: 'offers complete protein and is one of the best sources of iron and vitamin B12.',
-    image: '/images/buffalo.png'
+    image: '/images/buffalo.webp'
   },
   {
     name: 'Seafood',
     tagline: 'low in calories but high in protein, omega-3s and antioxidants like astaxanthin.',
-    image: '/images/prawns.png'
+    image: '/images/prawns.webp'
   },
   {
     name: 'Fishes',
     tagline: 'loaded with omega-3 fatty acids, calcium and vitamin D for heart and bone health.',
-    image: '/images/sardine.png'
+    image: '/images/sardine.webp'
   }
 ]
 
