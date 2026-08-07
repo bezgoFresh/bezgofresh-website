@@ -108,7 +108,7 @@ const heroImage = '/images/hero-butcher.png'
 
 .home-hero__blob {
   position: relative;
-  width: min(100%, 460px);
+  width: min(100%, 420px);
   aspect-ratio: 1;
   border-radius: 44% 56% 58% 42% / 44% 42% 58% 56%;
   background: linear-gradient(145deg, var(--teal) 0%, var(--teal-deep) 100%);
@@ -167,7 +167,7 @@ const heroImage = '/images/hero-butcher.png'
   }
 
   .home-hero__blob {
-    width: min(100%, 380px);
+    width: min(100%, 340px);
     margin-top: 8px;
   }
 }
