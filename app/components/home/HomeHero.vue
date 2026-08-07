@@ -112,18 +112,17 @@ const heroImage = '/images/hero-butcher.png'
   aspect-ratio: 1;
   border-radius: 44% 56% 58% 42% / 44% 42% 58% 56%;
   background: linear-gradient(145deg, var(--teal) 0%, var(--teal-deep) 100%);
-  display: flex;
-  align-items: flex-end;
-  justify-content: center;
   overflow: hidden;
   box-shadow: 0 30px 70px rgba(0, 95, 95, 0.35);
 }
 
 .home-hero__blob img {
-  width: 88%;
-  height: auto;
-  object-fit: contain;
-  transform: translateY(2px);
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
 }
 
 .home-hero__badge {

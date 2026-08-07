@@ -16,9 +16,6 @@
               <NuxtLink :to="link.to">{{ link.label }}</NuxtLink>
             </li>
           </ul>
-          <a class="site-footer__phone" :href="`https://wa.me/${PHONE_INTL}`" target="_blank" rel="noopener">
-            {{ PHONE }}
-          </a>
         </div>
 
         <div class="site-footer__col">
@@ -70,7 +67,7 @@
 </template>
 
 <script setup lang="ts">
-import { EMAIL, FOOTER_LINKS, LOCATION, PHONE, PHONE_INTL, SHOP_URL, SOCIALS } from '~/data/site'
+import { EMAIL, FOOTER_LINKS, LOCATION, SHOP_URL, SOCIALS } from '~/data/site'
 
 const logo = '/images/logo.png'
 </script>
@@ -126,13 +123,6 @@ const logo = '/images/logo.png'
 
 .site-footer__col a:hover {
   color: var(--teal-light);
-}
-
-.site-footer__phone {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  margin-top: 8px;
 }
 
 .site-footer__location {
