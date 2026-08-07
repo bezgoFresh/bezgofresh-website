@@ -3,7 +3,7 @@
     <div class="container">
       <div class="home-stats__grid">
         <UiReveal v-for="stat in STATS" :key="stat.label" class="home-stats__item">
-          <strong class="home-stats__value display">{{ stat.value }}</strong>
+          <strong class="home-stats__value display"><UiCounter :value="stat.value" /></strong>
           <span class="home-stats__label">{{ stat.label }}</span>
         </UiReveal>
       </div>
