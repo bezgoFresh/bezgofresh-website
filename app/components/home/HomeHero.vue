@@ -15,6 +15,10 @@
       </div>
 
       <UiReveal class="home-hero__media">
+        <div class="home-hero__blob-bg" aria-hidden="true"></div>
+        <span class="home-hero__ring" aria-hidden="true"></span>
+        <span class="home-hero__dot home-hero__dot--one" aria-hidden="true"></span>
+        <span class="home-hero__dot home-hero__dot--two" aria-hidden="true"></span>
         <div class="home-hero__blob">
           <img :src="heroImage" alt="A butcher preparing your bezgoFresh order" />
         </div>
@@ -104,16 +108,66 @@ const heroImage = '/images/hero-butcher.png'
   position: relative;
   display: flex;
   justify-content: center;
+  align-items: center;
+}
+
+.home-hero__blob-bg {
+  position: absolute;
+  top: 4%;
+  right: -8%;
+  width: min(100%, 470px);
+  aspect-ratio: 1;
+  border-radius: 56% 44% 62% 38% / 46% 58% 42% 54%;
+  background: linear-gradient(145deg, var(--teal-deep) 0%, #002f2f 100%);
+  transform: rotate(-14deg);
+  z-index: 0;
+}
+
+.home-hero__ring {
+  position: absolute;
+  top: 2%;
+  left: 3%;
+  width: 112px;
+  height: 112px;
+  border: 3px solid var(--gold);
+  border-radius: 50%;
+  z-index: 0;
+  opacity: 0.9;
+}
+
+.home-hero__dot {
+  position: absolute;
+  border-radius: 50%;
+  z-index: 0;
+}
+
+.home-hero__dot--one {
+  width: 16px;
+  height: 16px;
+  background: var(--teal);
+  bottom: 18%;
+  left: 1%;
+  box-shadow: 0 0 0 8px rgba(0, 128, 128, 0.12);
+}
+
+.home-hero__dot--two {
+  width: 11px;
+  height: 11px;
+  background: var(--gold);
+  top: 7%;
+  right: 3%;
 }
 
 .home-hero__blob {
   position: relative;
+  z-index: 1;
   width: min(100%, 420px);
   aspect-ratio: 1;
   border-radius: 44% 56% 58% 42% / 44% 42% 58% 56%;
   background: linear-gradient(145deg, var(--teal) 0%, var(--teal-deep) 100%);
   overflow: hidden;
   box-shadow: 0 30px 70px rgba(0, 95, 95, 0.35);
+  border: 6px solid rgba(255, 255, 255, 0.9);
 }
 
 .home-hero__blob img {
@@ -127,6 +181,7 @@ const heroImage = '/images/hero-butcher.png'
 
 .home-hero__badge {
   position: absolute;
+  z-index: 2;
   left: 4%;
   bottom: 8%;
   display: flex;
@@ -168,6 +223,25 @@ const heroImage = '/images/hero-butcher.png'
   .home-hero__blob {
     width: min(100%, 340px);
     margin-top: 8px;
+  }
+
+  .home-hero__blob-bg {
+    width: min(100%, 400px);
+    margin-top: 8px;
+    top: 6%;
+    right: -6%;
+  }
+
+  .home-hero__ring {
+    width: 84px;
+    height: 84px;
+    top: 3%;
+    left: 4%;
+  }
+
+  .home-hero__dot--one {
+    bottom: 20%;
+    left: 2%;
   }
 }
 </style>
