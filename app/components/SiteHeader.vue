@@ -126,15 +126,21 @@ watch(
   box-shadow: 0 10px 34px rgba(0, 64, 64, 0.36);
 }
 
+.site-header__brand {
+  display: flex;
+  align-items: center;
+  margin-left: 6px;
+}
+
 .site-header__brand img {
   display: block;
-  height: 42px;
+  height: 36px;
   width: auto;
   transition: height 0.45s cubic-bezier(0.22, 1, 0.36, 1);
 }
 
 .site-header--scrolled .site-header__brand img {
-  height: 34px;
+  height: 30px;
 }
 
 .site-header__nav {
