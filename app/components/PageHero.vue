@@ -33,7 +33,7 @@ defineProps({
 <style scoped>
 .page-hero {
   background: linear-gradient(135deg, var(--teal-deep) 0%, var(--teal) 60%, var(--teal-light) 100%);
-  padding: clamp(64px, 9vw, 120px) 0;
+  padding: clamp(118px, 12vw, 160px) 0 clamp(72px, 9vw, 120px);
 }
 
 .page-hero__title {

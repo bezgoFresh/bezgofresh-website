@@ -1,14 +1,5 @@
 <template>
   <footer class="site-footer">
-    <div class="site-footer__cta">
-      <div class="container site-footer__cta-inner">
-        <h2 class="site-footer__cta-title">Anything Fresh<br />that brings happiness...</h2>
-        <a :href="SHOP_URL" target="_blank" rel="noopener" class="btn btn-white site-footer__cta-btn">
-          Order Now!
-        </a>
-      </div>
-    </div>
-
     <div class="site-footer__main">
       <div class="container site-footer__grid">
         <div class="site-footer__brand">
@@ -56,6 +47,17 @@
           </div>
         </div>
       </div>
+
+      <div class="container">
+        <div class="site-footer__divider"></div>
+      </div>
+
+      <div class="container site-footer__tagline">
+        <h2 class="site-footer__tagline-title">Anything Fresh<br />that brings happiness...</h2>
+        <a :href="SHOP_URL" target="_blank" rel="noopener" class="btn btn-white site-footer__tagline-btn">
+          Order Now!
+        </a>
+      </div>
     </div>
 
     <div class="site-footer__bottom">
@@ -74,39 +76,10 @@ const logo = '/images/logo.png'
 </script>
 
 <style scoped>
-.site-footer__cta {
-  background: var(--teal);
-}
-
-.site-footer__cta-inner {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 28px;
-  padding-top: 76px;
-  padding-bottom: 76px;
-}
-
-.site-footer__cta-title {
-  font-family: var(--font-display);
-  font-weight: 400;
-  text-transform: uppercase;
-  font-size: clamp(30px, 5vw, 56px);
-  line-height: 1.08;
-  color: var(--white);
-}
-
-.site-footer__cta-btn {
-  flex-shrink: 0;
-  padding: 18px 38px;
-  border-radius: 30px;
-  font-size: 16px;
-}
-
 .site-footer__main {
   background: var(--teal-deep);
   color: #bcd8d8;
-  padding: 72px 0 56px;
+  padding: 72px 0 0;
 }
 
 .site-footer__grid {
@@ -193,6 +166,37 @@ const logo = '/images/logo.png'
   transform: translateY(-2px);
 }
 
+.site-footer__divider {
+  height: 3px;
+  margin-top: 64px;
+  background: linear-gradient(90deg, transparent, rgba(102, 204, 204, 0.7), transparent);
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.site-footer__tagline {
+  padding: 64px 0 80px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+
+.site-footer__tagline-title {
+  font-family: var(--font-display);
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: clamp(30px, 5vw, 54px);
+  line-height: 1.08;
+  color: var(--white);
+}
+
+.site-footer__tagline-btn {
+  padding: 17px 36px;
+  border-radius: 30px;
+  font-size: 15px;
+}
+
 .site-footer__bottom {
   background: var(--ink);
   padding: 18px 0;
@@ -210,11 +214,6 @@ const logo = '/images/logo.png'
 @media (max-width: 900px) {
   .site-footer__grid {
     grid-template-columns: 1fr 1fr;
-  }
-
-  .site-footer__cta-inner {
-    flex-direction: column;
-    text-align: center;
   }
 }
 

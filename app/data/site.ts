@@ -47,25 +47,6 @@ export const CATEGORIES = [
   }
 ]
 
-export const MEAT_ITEMS = [
-  { name: 'Mutton', image: '/images/meat/mutton.png' },
-  { name: 'Chicken', image: '/images/meat/chicken.png' },
-  { name: 'Buffalo', image: '/images/meat/buffalo.png' }
-]
-
-export const SEAFOOD_ITEMS = [
-  { name: 'Squid', image: '/images/seafood/squid.png' },
-  { name: 'Crabs', image: '/images/seafood/crabs.png' },
-  { name: 'Prawns', image: '/images/seafood/prawns.png' },
-  { name: 'Fishes', image: '/images/seafood/fishes.png' },
-  { name: 'Tilapia', image: '/images/seafood/tilapia.png' },
-  { name: 'King Fish', image: '/images/seafood/kingfish.png' },
-  { name: 'Anchovy', image: '/images/seafood/anchovy.png' },
-  { name: 'Bullseye', image: '/images/seafood/bullseye.png' },
-  { name: 'Pomfret', image: '/images/seafood/pomfret.png' },
-  { name: 'Sardine', image: '/images/seafood/sardine.png' }
-]
-
 export const STATS = [
   { value: '10000+', label: 'Orders' },
   { value: '2000+', label: 'Happy Customers' },

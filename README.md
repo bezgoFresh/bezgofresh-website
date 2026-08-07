@@ -49,8 +49,6 @@ Place downloaded images in `public/images/`:
 - `hero-butcher.png` — hero image
 - `about-poster.jpg` + `about-video.mp4` — about section media
 - `mutton.png`, `chicken.png`, `buffalo.png`, `prawns.png`, `sardine.png` — category cards
-- `meat/mutton.png`, `meat/chicken.png`, `meat/buffalo.png` — meat tab icons
-- `seafood/*.png` — squid, crabs, prawns, fishes, tilapia, kingfish, anchovy, bullseye, pomfret, sardine
 - `whatsapp-phone.jpg` — how-to-order phone mockup
 - `community.jpg` — community banner image
 - `og.png` — social share image

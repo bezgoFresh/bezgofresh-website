@@ -61,8 +61,8 @@ const heroImage = '/images/hero-butcher.png'
   grid-template-columns: 1.05fr 0.95fr;
   align-items: center;
   gap: 48px;
-  padding-top: clamp(48px, 7vw, 96px);
-  padding-bottom: clamp(48px, 7vw, 96px);
+  padding-top: clamp(118px, 11vw, 160px);
+  padding-bottom: clamp(56px, 7vw, 104px);
 }
 
 .home-hero__eyebrow {

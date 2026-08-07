@@ -67,12 +67,14 @@ import { CATEGORIES, WHATSAPP_URL } from '~/data/site'
 }
 
 .category-card {
+  position: relative;
   height: 100%;
   background: var(--white);
   border: 1px solid var(--border);
   border-radius: var(--radius);
-  padding: 24px 20px 28px;
+  padding: 14px 18px 30px;
   text-align: center;
+  overflow: hidden;
   transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
@@ -82,30 +84,29 @@ import { CATEGORIES, WHATSAPP_URL } from '~/data/site'
 }
 
 .category-card__media {
-  width: 110px;
-  height: 110px;
-  margin: 0 auto 18px;
-  border-radius: 50%;
-  background: var(--mint-soft);
-  border: 1px dashed var(--teal-light);
+  position: relative;
+  z-index: 1;
+  height: clamp(160px, 19vw, 220px);
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 14px;
 }
 
 .category-card__media img {
   width: 100%;
   height: 100%;
   object-fit: contain;
-  filter: drop-shadow(0 6px 10px rgba(0, 64, 64, 0.18));
+  filter: drop-shadow(0 14px 18px rgba(0, 64, 64, 0.16));
 }
 
 .category-card__name {
-  font-size: 24px;
+  position: relative;
+  z-index: 2;
+  margin-top: -20px;
+  font-size: 26px;
   letter-spacing: 0.04em;
   color: var(--teal-dark);
-  margin-bottom: 10px;
+  margin-bottom: 8px;
 }
 
 .category-card__text {

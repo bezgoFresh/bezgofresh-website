@@ -6,7 +6,6 @@
     <HomeCategories />
     <HomeStats />
     <HomeHowToOrder />
-    <HomeProductTabs />
     <HomeCommunity />
     <HomeFeatures />
   </div>
