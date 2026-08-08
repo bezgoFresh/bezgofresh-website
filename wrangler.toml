@@ -1,0 +1,6 @@
+name = "bezgofresh"
+compatibility_date = "2025-08-08"
+pages_build_output_dir = "dist"
+
+[observability]
+enabled = true

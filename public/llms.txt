@@ -1,0 +1,28 @@
+# bezgoFresh
+
+> Fresh fish and meat delivered straight from trusted local butchers to your doorstep in Palakkad, Kerala. Ordering is done through WhatsApp — no app, no sign-up.
+
+## Pages
+
+- [Home](https://www.bezgofresh.com/): Fresh fish and meat delivery service — from butchers directly to your doorstep in Palakkad.
+- [About Us](https://www.bezgofresh.com/know-more): The story of bezgoFresh, fresh selections, convenient WhatsApp ordering and swift delivery.
+- [Contact Us](https://www.bezgofresh.com/call-to-reach): Order on WhatsApp, email us, or visit our head office near Town Square Club, Palakkad.
+- [Team](https://www.bezgofresh.com/team): Meet the bezgoFresh team — founders, engineers and operations.
+- [Refer & Earn](https://www.bezgofresh.com/refer): Refer friends and earn rewards on bezgoFresh.
+- [Delivery Partner](https://www.bezgofresh.com/delivery-partner): Flexible work hours, weekly payouts — deliver with bezgoFresh in your own locality.
+- [Partner with us (Butcher)](https://www.bezgofresh.com/butcher): More customers, more sales — partner with bezgoFresh as a butcher.
+- [Terms & Conditions](https://www.bezgofresh.com/tc): Terms, conditions and FAQ for bezgoFresh.
+- [Privacy Policy](https://www.bezgofresh.com/privacy-policy): How bezgoFresh collects, uses and protects your information.
+
+## How ordering works
+
+1. Click the order button — it opens a WhatsApp chat.
+2. Select the items you need from your favourite butcher and add them to the cart.
+3. Share your location via WhatsApp — your fresh order is delivered to your doorstep.
+
+## Contact
+
+- WhatsApp: https://wa.me/918590256794?text=today%27s%20menu%20please%21
+- Email: bezgofresh@gmail.com
+- Phone: +91 85902 56794
+- Location: 04 Opp. Shadi Mahal, near Town Square Club, Palakkad, KL 678014

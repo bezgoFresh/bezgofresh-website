@@ -1,6 +1,7 @@
 User-Agent: *
 Allow: /
 Sitemap: https://www.bezgofresh.com/sitemap.xml
+LLM-Text: https://www.bezgofresh.com/llms.txt
 
 User-Agent: GPTBot
 Allow: /

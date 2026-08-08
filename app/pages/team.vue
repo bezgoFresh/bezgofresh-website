@@ -91,7 +91,7 @@ const TEAM = [
     name: 'John Joyel',
     role: 'Head of Technology',
     bio: 'Driving the technology behind bezgoFresh so ordering stays fast, simple and reliable.',
-    website: '',
+    website: 'https://johnjoyel.tech/',
     linkedin: 'https://www.linkedin.com/in/john-joyel/',
     email: 'johnjoyel0@hotmail.com'
   },
@@ -100,30 +100,30 @@ const TEAM = [
     name: 'Mohammed Shahid',
     role: 'Founding Engineer',
     bio: 'Engineering the platform end-to-end and keeping everything running smoothly.',
-    website: '',
+    website: 'https://shhyydh.pages.dev/',
     linkedin: 'https://www.linkedin.com/in/shhyydh/',
     email: 'shahid@bezgofresh.com'
   },
   {
-    photo: '',
+    photo: '/images/anas.webp',
     name: 'Anas',
     role: 'Human Resource',
     bio: 'Taking care of the people behind bezgoFresh.',
     website: '',
-    linkedin: '',
-    email: ''
+    linkedin: 'https://www.linkedin.com/in/anas-k-a-97325b2b1',
+    email: 'anaskty058@gmail.com'
   },
   {
     photo: '/images/parthiv.webp',
     name: 'Parthiv K',
     role: 'Founding Engineer',
     bio: 'Building and shipping the features our customers love.',
-    website: '',
+    website: 'https://portfolioparthiv.vercel.app',
     linkedin: 'https://www.linkedin.com/in/parthiv-k-134b95282/',
-    email: ''
+    email: 'parthiv.kp28@gmail.com'
   },
   {
-    photo: '',
+    photo: '/images/shihab.webp',
     name: 'Muhammed Shihab',
     role: 'Logistic Executive',
     bio: 'Making sure every order reaches the right doorstep on time.',
