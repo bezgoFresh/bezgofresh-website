@@ -1,7 +1,14 @@
 export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
   devtools: { enabled: true },
-  modules: ['@nuxt/icon'],
+  modules: ['@nuxt/icon', '@nuxtjs/sitemap'],
+  site: {
+    url: 'https://www.bezgofresh.com'
+  },
+  sitemap: {
+    autoLastmod: true,
+    zeroRuntime: true
+  },
   icon: {
     serverBundle: 'local',
     clientBundle: {
