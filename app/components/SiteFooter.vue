@@ -51,7 +51,7 @@
 
       <div class="container site-footer__tagline">
         <h2 class="site-footer__tagline-title">Anything Fresh<br />that brings happiness...</h2>
-        <a :href="SHOP_URL" target="_blank" rel="noopener" class="btn btn-white site-footer__tagline-btn">
+        <a :href="WHATSAPP_URL" target="_blank" rel="noopener" class="btn btn-white site-footer__tagline-btn">
           Order Now!
         </a>
       </div>
@@ -67,7 +67,7 @@
 </template>
 
 <script setup lang="ts">
-import { EMAIL, FOOTER_LINKS, LOCATION, SHOP_URL, SOCIALS } from '~/data/site'
+import { EMAIL, FOOTER_LINKS, LOCATION, SOCIALS, WHATSAPP_URL } from '~/data/site'
 
 const logo = '/images/logo.png'
 </script>

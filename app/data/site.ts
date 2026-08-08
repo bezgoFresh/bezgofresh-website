@@ -1,6 +1,5 @@
 export const WHATSAPP_URL = 'https://wa.me/918590256794?text=today%27s%20menu%20please%21'
 export const SITE_URL = 'https://www.bezgofresh.com'
-export const SHOP_URL = 'https://shop.bezgofresh.com'
 export const EMAIL = 'bezgofresh@gmail.com'
 export const PHONE = '+91 85902 56794'
 export const PHONE_INTL = '918590256794'
