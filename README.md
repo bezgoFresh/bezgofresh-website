@@ -1,54 +1,22 @@
 # bezgoFresh
 
-Fresh fish & meat delivery for Palakkad — rebuilt from the Wix site as a Nuxt 4 app, deployed free on Cloudflare Pages.
+Fresh fish & meat delivery for Palakkad, Kerala — rebuilt from the original Wix site as a Nuxt 4 app.
 
-## Tech
+## What is this?
 
-- **Nuxt 4** (Vue 3, Nitro) with the `cloudflare-pages` preset
-- Fonts: Anton, Montserrat, Questrial (Google Fonts)
-- Assets live in `public/` and are served from Cloudflare's CDN
+bezgoFresh is a business website for a fresh fish and meat delivery service operating in Palakkad, Kerala, India. Customers order via WhatsApp and get fresh selection delivered straight from trusted local butchers and fishmongers to their doorstep.
 
-## Local development
+The site covers:
 
-```bash
-npm install
-npm run dev
-```
+- **Home** — hero, categories, stats, how-to-order, community and features
+- **About Us** — story, values and the NVIDIA Inception badge
+- **Contact Us** — WhatsApp ordering and contact details
+- **Team** — the people behind bezgoFresh with their profiles
+- **Refer & Earn**, **Delivery Partner**, **Butcher partnership** — growth pages
+- **Terms** and **Privacy Policy**
 
-## Checks
+Built with Nuxt 4 (Vue 3) and deployed on Cloudflare Pages.
 
-```bash
-npm run typecheck
-```
+## License
 
-## Build & preview
-
-```bash
-npm run build       # outputs the deployable site to dist/
-npx wrangler pages dev dist
-```
-
-## Deploy to Cloudflare Pages
-
-Via the Cloudflare dashboard or CLI, connect this Git repo:
-
-- Build command: `npm run build`
-- Output directory: `dist`
-
-Or deploy directly:
-
-```bash
-npx wrangler pages deploy dist
-```
-
-## Assets
-
-Place downloaded images in `public/images/`:
-
-- `logo.png` — site logo
-- `hero-butcher.png` — hero image
-- `about-poster.jpg` + `about-video.mp4` — about section media
-- `mutton.png`, `chicken.png`, `buffalo.png`, `prawns.png`, `sardine.png` — category cards
-- `whatsapp-phone.jpg` — how-to-order phone mockup
-- `community.jpg` — community banner image
-- `og.png` — social share image
+Proprietary. All rights reserved by bezgoFresh. See [LICENSE](./LICENSE).
