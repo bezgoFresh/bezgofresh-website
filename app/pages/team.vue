@@ -56,21 +56,6 @@
         </div>
       </div>
     </section>
-
-    <section class="section-tint section">
-      <div class="container">
-        <UiReveal class="team__badge">
-          <img class="team__badge-logo" :src="nvidiaBadge" alt="NVIDIA Inception program member" loading="lazy" />
-          <div class="team__badge-text">
-            <h3 class="team__badge-title">Proud member of NVIDIA Inception</h3>
-            <p class="team__badge-copy">
-              bezgoFresh is part of the NVIDIA Inception program, accelerating our journey to bring
-              technology and freshness together for Palakkad.
-            </p>
-          </div>
-        </UiReveal>
-      </div>
-    </section>
   </div>
 </template>
 
@@ -79,8 +64,6 @@ useSeoMeta({
   title: 'Team | bezgoFresh',
   description: 'Meet the bezgoFresh team delivering fresh fish and meat to your doorstep in Palakkad.'
 })
-
-const nvidiaBadge = '/images/nvidia-inception-program-badge-rgb-for-screen.png'
 
 const TEAM = [
   { photo: '/images/shafak.webp', name: 'Muhammed Shafak', role: 'CEO', bio: 'B.tech in AI & DS, Built bezgo from a side hustle to a startup.', website: '', linkedin: 'https://www.linkedin.com/in/muhammadshafak-/', email: 'shafak@bezgofresh.com' },
@@ -246,35 +229,6 @@ function initials(name: string) {
   opacity: 0.35;
 }
 
-.team__badge {
-  display: flex;
-  align-items: center;
-  gap: 36px;
-  background: var(--white);
-  border: 1px solid var(--border);
-  border-radius: var(--radius-lg);
-  padding: clamp(28px, 4vw, 44px);
-  box-shadow: var(--shadow-sm);
-}
-
-.team__badge-logo {
-  width: min(240px, 40%);
-  height: auto;
-  flex-shrink: 0;
-}
-
-.team__badge-title {
-  font-family: var(--font-heading);
-  font-size: clamp(19px, 2.4vw, 26px);
-  margin-bottom: 8px;
-}
-
-.team__badge-copy {
-  color: var(--ink-soft);
-  font-size: 15px;
-  max-width: 58ch;
-}
-
 @media (max-width: 1000px) {
   .team__grid {
     grid-template-columns: repeat(3, 1fr);
@@ -284,12 +238,6 @@ function initials(name: string) {
 @media (max-width: 760px) {
   .team__grid {
     grid-template-columns: repeat(2, 1fr);
-  }
-
-  .team__badge {
-    flex-direction: column;
-    text-align: center;
-    gap: 20px;
   }
 }
 

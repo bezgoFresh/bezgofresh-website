@@ -43,6 +43,21 @@
         </div>
       </div>
     </section>
+
+    <section class="section">
+      <div class="container">
+        <UiReveal class="about__badge">
+          <img class="about__badge-logo" :src="nvidiaBadge" alt="NVIDIA Inception program member" loading="lazy" />
+          <div class="about__badge-text">
+            <h3 class="about__badge-title">Proud member of NVIDIA Inception</h3>
+            <p class="about__badge-copy">
+              bezgoFresh is part of the NVIDIA Inception program, accelerating our journey to bring
+              technology and freshness together for Palakkad.
+            </p>
+          </div>
+        </UiReveal>
+      </div>
+    </section>
   </div>
 </template>
 
@@ -50,6 +65,7 @@
 import { WHATSAPP_URL } from '~/data/site'
 
 const aboutImage = '/images/about-poster.jpg'
+const nvidiaBadge = '/images/nvidia-inception-program-badge-rgb-for-screen.png'
 
 useSeoMeta({
   title: 'About Us | bezgoFresh',
@@ -122,6 +138,35 @@ const VALUES = [
   color: var(--ink-soft);
 }
 
+.about__badge {
+  display: flex;
+  align-items: center;
+  gap: 36px;
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  padding: clamp(28px, 4vw, 44px);
+  box-shadow: var(--shadow-sm);
+}
+
+.about__badge-logo {
+  width: min(240px, 40%);
+  height: auto;
+  flex-shrink: 0;
+}
+
+.about__badge-title {
+  font-family: var(--font-heading);
+  font-size: clamp(19px, 2.4vw, 26px);
+  margin-bottom: 8px;
+}
+
+.about__badge-copy {
+  color: var(--ink-soft);
+  font-size: 15px;
+  max-width: 58ch;
+}
+
 @media (max-width: 900px) {
   .about__inner {
     grid-template-columns: 1fr;
@@ -135,6 +180,12 @@ const VALUES = [
 @media (max-width: 520px) {
   .about__values {
     grid-template-columns: 1fr;
+  }
+
+  .about__badge {
+    flex-direction: column;
+    text-align: center;
+    gap: 20px;
   }
 }
 </style>
