@@ -1,4 +1,5 @@
 export const WHATSAPP_URL = 'https://wa.me/918590256794?text=today%27s%20menu%20please%21'
+export const SITE_URL = 'https://www.bezgofresh.com'
 export const SHOP_URL = 'https://shop.bezgofresh.com'
 export const EMAIL = 'bezgofresh@gmail.com'
 export const PHONE = '+91 85902 56794'
@@ -47,9 +48,9 @@ export const CATEGORIES = [
 ]
 
 export const STATS = [
-  { value: '10000+', label: 'Orders' },
+  { value: '10000+', label: 'Completed Orders' },
   { value: '2000+', label: 'Happy Customers' },
-  { value: '10000+', label: 'Sold' }
+  { value: '10000 kg+', label: 'Volume Sold' }
 ]
 
 export const ORDER_STEPS = [
@@ -108,7 +109,6 @@ export const FEATURES = [
 
 export const FOOTER_LINKS = {
   contact: [
-    { label: 'Contact Us', to: '/call-to-reach' },
     { label: 'Deliver with us', to: '/delivery-partner' },
     { label: 'Help & Support', to: '/call-to-reach' },
     { label: 'Partner up with us', to: '/butcher' }

@@ -24,6 +24,16 @@
             <p v-if="member.bio" class="team__bio">{{ member.bio }}</p>
             <div class="team__links">
               <a
+                :href="member.website || '#'"
+                :class="{ 'team__link--muted': !member.website }"
+                target="_blank"
+                rel="noopener"
+                :aria-label="`${member.name} website`"
+                :title="member.website ? 'Website' : 'Website coming soon'"
+              >
+                <Icon name="ph:globe-simple-fill" :size="18" />
+              </a>
+              <a
                 :href="member.linkedin || '#'"
                 :class="{ 'team__link--muted': !member.linkedin }"
                 target="_blank"
@@ -73,14 +83,15 @@ useSeoMeta({
 const nvidiaBadge = '/images/nvidia-inception-program-badge-rgb-for-screen.png'
 
 const TEAM = [
-  { photo: '/images/shafak.webp', name: 'Muhammed Shafak', role: 'CEO', bio: 'B.tech in AI & DS, Built bezgo from a side hustle to a startup.', linkedin: 'https://www.linkedin.com/in/muhammadshafak-/', email: 'shafak@bezgofresh.com' },
-  { photo: '/images/thafheem.webp', name: 'Thafheem S A', role: 'COO', bio: 'B.tech in CSBS, Drives ops & vendor execution', linkedin: 'https://www.linkedin.com/in/thafheem/', email: 'thafheem@bezgofresh.com' },
-  { photo: '/images/rithik.webp', name: 'Rithik Krishnan B', role: 'CBO', bio: 'B.tech in AI & DS, Ex-marketing agency founder.', linkedin: 'https://www.linkedin.com/in/rithik-krishna/', email: 'rithik@bezgofresh.com' },
+  { photo: '/images/shafak.webp', name: 'Muhammed Shafak', role: 'CEO', bio: 'B.tech in AI & DS, Built bezgo from a side hustle to a startup.', website: '', linkedin: 'https://www.linkedin.com/in/muhammadshafak-/', email: 'shafak@bezgofresh.com' },
+  { photo: '/images/thafheem.webp', name: 'Thafheem S A', role: 'COO', bio: 'B.tech in CSBS, Drives ops & vendor execution', website: '', linkedin: 'https://www.linkedin.com/in/thafheem/', email: 'thafheem@bezgofresh.com' },
+  { photo: '/images/rithik.webp', name: 'Rithik Krishnan B', role: 'CBO', bio: 'B.tech in AI & DS, Ex-marketing agency founder.', website: '', linkedin: 'https://www.linkedin.com/in/rithik-krishna/', email: 'rithik@bezgofresh.com' },
   {
     photo: '/images/joyel.webp',
     name: 'John Joyel',
     role: 'Head of Technology',
     bio: 'Driving the technology behind bezgoFresh so ordering stays fast, simple and reliable.',
+    website: '',
     linkedin: 'https://www.linkedin.com/in/john-joyel/',
     email: 'johnjoyel0@hotmail.com'
   },
@@ -89,6 +100,7 @@ const TEAM = [
     name: 'Mohammed Shahid',
     role: 'Founding Engineer',
     bio: 'Engineering the platform end-to-end and keeping everything running smoothly.',
+    website: '',
     linkedin: 'https://www.linkedin.com/in/shhyydh/',
     email: 'shahid@bezgofresh.com'
   },
@@ -97,6 +109,7 @@ const TEAM = [
     name: 'Anas',
     role: 'Human Resource',
     bio: 'Taking care of the people behind bezgoFresh.',
+    website: '',
     linkedin: '',
     email: ''
   },
@@ -105,6 +118,7 @@ const TEAM = [
     name: 'Parthiv K',
     role: 'Founding Engineer',
     bio: 'Building and shipping the features our customers love.',
+    website: '',
     linkedin: 'https://www.linkedin.com/in/parthiv-k-134b95282/',
     email: ''
   },
@@ -113,6 +127,7 @@ const TEAM = [
     name: 'Muhammed Shihab',
     role: 'Logistic Executive',
     bio: 'Making sure every order reaches the right doorstep on time.',
+    website: '',
     linkedin: '',
     email: ''
   }

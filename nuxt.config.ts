@@ -9,12 +9,20 @@ export default defineNuxtConfig({
         'ph:instagram-logo-fill',
         'ph:twitter-logo-fill',
         'ph:linkedin-logo-fill',
-        'ph:envelope-simple-fill'
+        'ph:envelope-simple-fill',
+        'ph:globe-simple-fill'
       ],
       sizeLimitKb: 0
     }
   },
-  css: ['~/assets/css/main.css'],
+  css: [
+    '~/assets/css/main.css',
+    '@fontsource/anton/400.css',
+    '@fontsource/montserrat/400.css',
+    '@fontsource/montserrat/600.css',
+    '@fontsource/montserrat/700.css',
+    '@fontsource/questrial/400.css'
+  ],
   nitro: {
     preset: 'cloudflare-pages',
     prerender: {
@@ -49,10 +57,7 @@ export default defineNuxtConfig({
         { name: 'twitter:card', content: 'summary_large_image' }
       ],
       link: [
-        { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
-        { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
-        { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: 'anonymous' },
-        { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:wght@400;600;700&family=Questrial&display=swap' }
+        { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
       ]
     }
   }

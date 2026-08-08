@@ -1,3 +1,15 @@
 User-Agent: *
 Allow: /
 Sitemap: https://www.bezgofresh.com/sitemap.xml
+
+User-Agent: GPTBot
+Allow: /
+
+User-Agent: ChatGPT-User
+Allow: /
+
+User-Agent: ClaudeBot
+Allow: /
+
+User-Agent: Google-Extended
+Allow: /
