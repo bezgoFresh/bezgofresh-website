@@ -102,8 +102,8 @@ watch(
   align-items: center;
   justify-content: space-between;
   gap: 24px;
-  width: min(94%, 1360px);
-  padding: 10px 14px 10px 10px;
+  width: min(86%, 1120px);
+  padding: 8px 12px 8px 8px;
   border-radius: 999px;
   background:
     radial-gradient(130% 170% at 0% 0%, rgba(255, 255, 255, 0.16), transparent 45%),
@@ -268,6 +268,7 @@ watch(
 @media (max-width: 520px) {
   .site-header__pill {
     width: min(96%, 1360px);
+    padding: 8px 14px 8px 10px;
   }
 
   .site-header--scrolled .site-header__pill {

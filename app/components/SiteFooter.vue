@@ -60,7 +60,7 @@
     <div class="site-footer__bottom">
       <div class="container site-footer__bottom-inner">
         <p>&copy; {{ new Date().getFullYear() }} bezgoFresh. All rights reserved.</p>
-        <p>Made with freshness in {{ LOCATION }}.</p>
+        <p>Developed &amp; maintained by <a href="https://shhyydh.pages.dev" target="_blank" rel="noopener">shhyydh</a></p>
       </div>
     </div>
   </footer>
@@ -199,6 +199,16 @@ const logo = '/images/logo.png'
   gap: 12px;
   font-size: 13px;
   color: #8fa6a6;
+}
+
+.site-footer__bottom-inner a {
+  color: var(--teal);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.site-footer__bottom-inner a:hover {
+  color: var(--gold);
 }
 
 @media (max-width: 900px) {

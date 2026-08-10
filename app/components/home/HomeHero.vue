@@ -113,12 +113,12 @@ const heroImage = '/images/hero-butcher.webp'
 
 .home-hero__blob-bg {
   position: absolute;
-  top: 4%;
+  top: 2%;
   right: -8%;
-  width: min(100%, 470px);
+  width: min(100%, 460px);
   aspect-ratio: 1;
   border-radius: 56% 44% 62% 38% / 46% 58% 42% 54%;
-  background: linear-gradient(145deg, var(--teal-deep) 0%, #002f2f 100%);
+  background: linear-gradient(145deg, var(--teal) 0%, var(--teal-dark) 100%);
   transform: rotate(-14deg);
   z-index: 0;
 }
@@ -226,9 +226,9 @@ const heroImage = '/images/hero-butcher.webp'
   }
 
   .home-hero__blob-bg {
-    width: min(100%, 400px);
+    width: min(100%, 360px);
     margin-top: 8px;
-    top: 6%;
+    top: 2%;
     right: -6%;
   }
 
