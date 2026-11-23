@@ -59,7 +59,7 @@
 
     <div class="site-footer__bottom">
       <div class="container site-footer__bottom-inner">
-        <p>&copy; {{ new Date().getFullYear() }} bezgoFresh. All rights reserved.</p>
+        <p>&copy; {{ new Date().getFullYear() }} OGZEB Ventures Pvt Ltd. All rights reserved.</p>
         <p>Developed &amp; maintained by <a href="https://shhyydh.pages.dev" target="_blank" rel="noopener">shhyydh</a></p>
       </div>
     </div>
